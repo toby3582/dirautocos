@@ -1,0 +1,26 @@
+tencent-cos:
+  base-url: https://xxxxx.cos.ap-guangzhou.myqcloud.com
+  bucket: xxxxx
+  path-prefix: 
+  region: ap-guangzhou
+  secret-id: xx
+  secret-key: xx
+tencentcos:
+  bucket: xxxxx
+  region: ap-guangzhou
+  secret-id: xx
+  secret-key: xx
+  base-url: https://xxxxx.cos.ap-guangzhou.myqcloud.com
+  path-prefix: 
+zap:
+  level: info
+  format: console
+  prefix: '[IPO-COIN]'
+  director: log
+  link-name: latest_log
+  showLine: false
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  log-in-console: true
+watcher:
+  dir: yourdir
